@@ -45,7 +45,8 @@ window.NORGE2026 = {
         "Kan nås med bil, buss, cykel eller kajak",
         "Bra lågtröskelvandring om vädret är okej"
       ],
-      "inMapsList": false
+      "inMapsList": false,
+      "near": "Horn ferjekai"
     },
     {
       "name": "Vegaøyan / Vega World Heritage",
@@ -59,7 +60,8 @@ window.NORGE2026 = {
         "Lånan är särskilt kopplat till ejdertraditionen",
         "Kultur + kustlandskap snarare än bara utsikt"
       ],
-      "inMapsList": false
+      "inMapsList": false,
+      "near": "Vegatrappa"
     },
     {
       "name": "Dønnamannen",
@@ -73,7 +75,8 @@ window.NORGE2026 = {
         "Inte bra vid vått berg eller höjdrädsla",
         "Utsikten kan vara fantastisk vid klart väder"
       ],
-      "inMapsList": false
+      "inMapsList": false,
+      "near": "Dønnes Gård"
     },
     {
       "name": "Helgelandsbrua",
@@ -87,7 +90,8 @@ window.NORGE2026 = {
         "Bra introduktion till Sandnessjøen-området",
         "Passar på väg mot Dønna/Herøy"
       ],
-      "inMapsList": false
+      "inMapsList": false,
+      "near": "De syv søstre"
     },
     {
       "name": "Svartisen / Austerdalsisen",
@@ -101,7 +105,8 @@ window.NORGE2026 = {
         "Båt + promenad",
         "Ta bra skor; sten kan vara hal"
       ],
-      "inMapsList": false
+      "inMapsList": false,
+      "near": "Mo i Rana Airport"
     },
     {
       "name": "Grønligrotta",
@@ -115,7 +120,8 @@ window.NORGE2026 = {
         "Lättillgänglig guidad tur",
         "Ta tröja: grottan är 4–8 °C"
       ],
-      "inMapsList": false
+      "inMapsList": false,
+      "near": "Home Hotel Helma"
     },
     {
       "name": "Sjøgata i Mosjøen",
@@ -129,7 +135,8 @@ window.NORGE2026 = {
         "Funkar även utan vandringsväder",
         "Kan kombineras med Helgelandstrappa/zipline om ni vill ha aktivitet"
       ],
-      "inMapsList": false
+      "inMapsList": false,
+      "near": "Home Hotel Helma"
     },
     {
       "category": "nearby",
