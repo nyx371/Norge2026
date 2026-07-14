@@ -118,6 +118,20 @@ code { background: var(--mist); padding: 3px 7px; border-radius: 7px; }
 .card:hover .photo img { transform: scale(1.045); }
 .card-body { padding: 22px; display: flex; flex: 1; flex-direction: column; }
 .meta { display: flex; justify-content: space-between; gap: 12px; color: var(--fjord); font-weight: 800; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.status-row { margin: 14px 0 10px; }
+.status {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 7px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.status.maps { background: rgba(23, 61, 50, 0.1); color: var(--pine); }
+.status.suggestion { background: rgba(243, 183, 95, 0.26); color: #7a4b08; }
 .type { color: var(--muted); margin: 8px 0 0; font-weight: 700; }
 .card-body p:not(.type) { color: var(--muted); line-height: 1.5; }
 .tips {

@@ -11,6 +11,9 @@ function placeCard(place, index) {
   const rating = place.rating ? `<span>★ ${place.rating}${place.reviews ? ` · ${place.reviews} reviews` : ""}</span>` : "";
   const tips = place.tips?.length ? `<ul class="tips">${place.tips.map((tip) => `<li>${tip}</li>`).join("")}</ul>` : "";
   const visitLink = place.visitUrl ? `<a class="source-link" href="${place.visitUrl}" target="_blank" rel="noreferrer">Läs mer på Visit Helgeland →</a>` : "";
+  const status = place.inMapsList
+    ? `<span class="status maps">I Google Maps-listan</span>`
+    : `<span class="status suggestion">Nära ${place.near ?? "rutten"}</span>`;
   return `
     <article class="card ${index < 6 ? "featured" : ""}" data-category="${place.category}">
       <a class="photo" href="${mapsSearchUrl(place.name)}" target="_blank" rel="noreferrer" aria-label="Öppna ${place.name} i Google Maps">
@@ -18,6 +21,7 @@ function placeCard(place, index) {
       </a>
       <div class="card-body">
         <div class="meta"><span>${category.label}</span>${rating}</div>
+        <div class="status-row">${status}</div>
         <h3>${place.name}</h3>
         <p class="type">${place.type ?? "Resmål"}</p>
         <p>${place.note}</p>
