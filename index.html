@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Norge 2026 · Roadtrip-inspiration</title>
+    <meta name="description" content="Inspirationssida för Norge 2026: roadtrip, färjor, vandringar, boenden och stopp från Google Maps-listan.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar">
+        <a class="brand" href="#top">Norge 2026</a>
+        <div id="categoryNav" class="nav-links"></div>
+      </nav>
+      <div class="hero-grid" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Bilsemester · Helgeland · öar · fjordar</p>
+          <h1>Resmål vi inte får missa.</h1>
+          <p class="lead">En levande inspirationssida för rutten: vackra stopp, färjor, boenden, djur, vandringar och platser att hålla koll på när kartlistan växer.</p>
+          <div class="actions">
+            <a class="button primary" id="mapListLink" href="#" target="_blank" rel="noreferrer">Öppna Google Maps-listan</a>
+            <a class="button" href="#must">Se måsten</a>
+          </div>
+          <div class="stats" aria-label="Resestatistik">
+            <div><strong id="placeCount">28</strong><span>platser</span></div>
+            <div><strong>4</strong><span>teman</span></div>
+            <div><strong>∞</strong><span>framtida uppdateringar</span></div>
+          </div>
+        </div>
+        <div class="hero-photos" id="heroPhotos" aria-label="Inspirationsbilder från Norge"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p class="eyebrow">Planeringsläge</p>
+        <h2>Byggd för att uppdateras när Maps-listan ändras.</h2>
+        <p>Platserna ligger i <code>data.js</code>, så nästa gång du skickar fler stopp kan sidan uppdateras snabbt utan att designen behöver göras om.</p>
+      </section>
+      <div id="sections"></div>
+    </main>
+
+    <footer>
+      <p>Norge 2026 · Roadtrip med bil · data från delad Google Maps-lista</p>
+      <a href="#top">Till toppen ↑</a>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

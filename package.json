@@ -1,0 +1,8 @@
+{
+  "name": "norge2026",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node --check data.js && node --check app.js"
+  }
+}
