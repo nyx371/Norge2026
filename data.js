@@ -37,50 +37,92 @@ window.NORGE2026 = {
       "name": "Torghatten",
       "type": "Naturikon",
       "category": "nearby",
-      "note": "Berget med hålet nära Brønnøysund/Horn–Tjøtta-sträckan. Ett av de mest ikoniska stoppen på Helgelandskusten.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Torghatten_1.jpg"
+      "note": "National scenic hike till det berömda berget med ett 35 meter högt hål rakt igenom. Leden är välskött och relativt tillgänglig för många åldrar, med stor utsikt genom tunneln.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Torghatten_1.jpg",
+      "visitUrl": "https://visithelgeland.com/en/torghatten-en/",
+      "tips": [
+        "Strax söder om Brønnøysund",
+        "Kan nås med bil, buss, cykel eller kajak",
+        "Bra familjevandring om vädret är okej"
+      ]
     },
     {
       "name": "Vegaøyan / Vega World Heritage",
       "type": "UNESCO-område",
       "category": "nearby",
-      "note": "Nära Vegatrappa och Igerøy. Ö-kultur, kustlandskap och världsarv — hög prio om ni ändå tar Vega.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Vegaoyan.jpg"
+      "note": "UNESCO-världsarv sedan 2004 tack vare den unika kulturen där fiskarbönder skyddat ejdrar och samlat ejderdun i generationer. Vega World Heritage Centre ger kontext till öarna.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Vegaoyan.jpg",
+      "visitUrl": "https://visithelgeland.com/en/vega-world-heritage/",
+      "tips": [
+        "Passar ihop med Vegatrappa/Igerøy",
+        "Lånan är särskilt kopplat till ejdertraditionen",
+        "Kultur + kustlandskap snarare än bara utsikt"
+      ]
     },
     {
       "name": "Dønnamannen",
       "type": "Fjäll / utsikt",
       "category": "nearby",
-      "note": "Nära Dønna och Dønnes Gård. Bra alternativ eller komplement till De syv søstre.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/D%C3%B8nnmannen.JPG"
+      "note": "858 meter högt fjäll på Dønna med enorm kustpanorama från toppen. Visit Helgeland beskriver turen som mycket krävande och rekommenderad för vana fjällvandrare.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/D%C3%B8nnmannen.JPG",
+      "visitUrl": "https://visithelgeland.com/en/trip/hiking-to-donnamannen/",
+      "tips": [
+        "Krävande toppvandring",
+        "Inte bra vid vått berg eller höjdrädsla",
+        "Utsikten kan vara fantastisk vid klart väder"
+      ]
     },
     {
       "name": "Helgelandsbrua",
       "type": "Fotostopp",
       "category": "nearby",
-      "note": "Vid Sandnessjøen. Kort stopp med stor utsikt och väldigt roadtrip-vänligt.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/20240720_Helgelandsbrua_-_5039.jpg"
+      "note": "Infarten mot Sandnessjøen där kustlinjen öppnar sig med De syv søstre och Dønnamannen i blickfånget. Visit Helgeland kallar området porten till Helgelandskusten.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/20240720_Helgelandsbrua_-_5039.jpg",
+      "visitUrl": "https://visithelgeland.com/en/nature-experiences-near-sandnessjoen/",
+      "tips": [
+        "Snabbt fotostopp",
+        "Bra introduktion till Sandnessjøen-området",
+        "Passar på väg mot Dønna/Herøy"
+      ]
     },
     {
       "name": "Svartisen / Austerdalsisen",
       "type": "Glaciär",
       "category": "nearby",
-      "note": "Nära Mo i Rana med lite planering. Stor naturupplevelse om ni har marginal i schemat.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Svartisen_Luftbild.jpg"
+      "note": "Svartisen är Norges näst största fastlandsglaciär. Austerdalsisen nås från Mo i Rana-hållet via kort båttur och ca 3 km promenad till glaciärutsikt.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Svartisen_Luftbild.jpg",
+      "visitUrl": "https://visithelgeland.com/en/svartisen-engabreen-and-austerdalsisen/",
+      "tips": [
+        "Kräver mer planering än vanliga stopp",
+        "Båt + promenad",
+        "Ta bra skor; sten kan vara hal"
+      ]
     },
     {
       "name": "Grønligrotta",
       "type": "Grotta",
       "category": "nearby",
-      "note": "Nära Mo i Rana. Bra regnvädersaktivitet och kul kontrast till kust och fjäll.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Gr%C3%B8nligrotta_20200814_121554.jpg"
+      "note": "En av Skandinaviens mest besökta grottor, nära Mo i Rana. Guidad tur på 45–60 minuter med kalkstensformationer, jettegrytor, bäck och underjordiskt vattenfall.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Gr%C3%B8nligrotta_20200814_121554.jpg",
+      "visitUrl": "https://visithelgeland.com/en/product/gronligrotta-cave-near-mo-i-rana/",
+      "tips": [
+        "Bra regnvädersaktivitet",
+        "Passar barn och vuxna",
+        "Ta tröja: grottan är 4–8 °C"
+      ]
     },
     {
       "name": "Sjøgata i Mosjøen",
       "type": "Historisk stadsmiljö",
       "category": "nearby",
-      "note": "Trähusmiljö, promenad och fikastopp — bra om rutten går via Mosjøen.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sj%C3%B8gata_Mosj%C3%B8en.jpg"
+      "note": "Mosjøen är Helgelands äldsta stad, med den historiska träbebyggelsen Sjøgata från 1800-talet, kaféer, kultur och promenadläge vid Vefsnfjorden.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sj%C3%B8gata_Mosj%C3%B8en.jpg",
+      "visitUrl": "https://visithelgeland.com/no/places/mosjoen/",
+      "tips": [
+        "Bra fika-/promenadstopp",
+        "Funkar även utan vandringsväder",
+        "Kan kombineras med Helgelandstrappa/zipline om ni vill ha aktivitet"
+      ]
     },
     {
       "name": "De syv søstre",
@@ -88,8 +130,14 @@ window.NORGE2026 = {
       "category": "hike",
       "rating": "4.8",
       "reviews": "90",
-      "note": "Hike — ikonisk bergsrygg vid Sandnessjøen. Om vädret är bra: hög prio.",
-      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSuC27n76n6ji8iYe_nnJ_JBKQICObhhht8Dw1fQhBuhlRlZMTeYFFhQSsKPbESz2qvUk8K9Ul76AdvA8QrEOLF0Iwe1f83QxxvRaU8KJgK-b-1D4B0M9ppVYSs7pwmax_ZqFc=w900-h700-k-no"
+      "note": "En av Helgelands mest kända fjällkedjor: sju tydliga toppar på rad utanför Sandnessjøen. Hela raden är krävande, men enskilda toppar eller utsiktsstopp kan räcka fint.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSuC27n76n6ji8iYe_nnJ_JBKQICObhhht8Dw1fQhBuhlRlZMTeYFFhQSsKPbESz2qvUk8K9Ul76AdvA8QrEOLF0Iwe1f83QxxvRaU8KJgK-b-1D4B0M9ppVYSs7pwmax_ZqFc=w900-h700-k-no",
+      "visitUrl": "https://visithelgeland.com/en/the-seven-sisters-mountain-range/",
+      "tips": [
+        "Toppar upp till drygt 1000 m",
+        "Planera efter väder och ork",
+        "Sandnessjøen är naturlig bas"
+      ]
     },
     {
       "name": "Vegatrappa",
@@ -97,8 +145,14 @@ window.NORGE2026 = {
       "category": "hike",
       "rating": "4.8",
       "reviews": "246",
-      "note": "Trappvandring med stor utsiktspotential. Bra som tydligt mål på Vega/Helgeland.",
-      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnJ1KJpeeg9YAT9nkBFh9A-qaKTKpfqBwCXI-XZhjbwZwz37aBfJODNhfa87McS5M5rxIDquySV8Z6lMc7HzE_dUauyLofMY7AWkYdndgcpUWVSpeCIaHEWODSI6WRsomJtcHtTuQ=w900-h700-k-no"
+      "note": "Ett tydligt aktivitetsstopp på Vega. Visit Helgeland lyfter Vega som UNESCO-öområde, så trappan passar bäst ihop med kulturstopp på världsarvscentret.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnJ1KJpeeg9YAT9nkBFh9A-qaKTKpfqBwCXI-XZhjbwZwz37aBfJODNhfa87McS5M5rxIDquySV8Z6lMc7HzE_dUauyLofMY7AWkYdndgcpUWVSpeCIaHEWODSI6WRsomJtcHtTuQ=w900-h700-k-no",
+      "visitUrl": "https://visithelgeland.com/en/vega-world-heritage/",
+      "tips": [
+        "Kombinera med Vega World Heritage Centre",
+        "Bra utsikt + världsarv samma dag",
+        "Kolla färjetider noga"
+      ]
     },
     {
       "name": "Tjuvtrappa",
@@ -142,8 +196,14 @@ window.NORGE2026 = {
       "category": "must",
       "rating": "4.2",
       "reviews": "357",
-      "note": "Kulturstopp med arkitektur och kustkänsla.",
-      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmfa48r8Fxj07Xj-zOFgMs85tZTfRo2cU2pWJu86-eyRY3-MjrX4vkQprfwdNGWQFj96C32I91Ghzores3m0uCLYb2r0kQs5CBiT3LlPOTxSI_i22kp_pW2kRz33TAlVfPjQ7sU=w900-h700-k-no"
+      "note": "Kulturstopp på Helgelandskusten som passar bra mellan natur- och färjedagar. Lägg det som lugnare paus om väder eller ork inte räcker för vandring.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmfa48r8Fxj07Xj-zOFgMs85tZTfRo2cU2pWJu86-eyRY3-MjrX4vkQprfwdNGWQFj96C32I91Ghzores3m0uCLYb2r0kQs5CBiT3LlPOTxSI_i22kp_pW2kRz33TAlVfPjQ7sU=w900-h700-k-no",
+      "visitUrl": "https://visithelgeland.com/en/nature-experiences-near-sandnessjoen/",
+      "tips": [
+        "Bra inomhus-/kulturpaus",
+        "Nära Sandnessjøen-området",
+        "Kontrast till fjäll och färjor"
+      ]
     },
     {
       "name": "Klokkerhagen elvepark",
@@ -178,8 +238,14 @@ window.NORGE2026 = {
       "category": "sleep",
       "rating": "4.7",
       "reviews": "411",
-      "note": "Starkt hotellstopp på Lovund — ö-känsla och dramatisk kust.",
-      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk5cl3rIwiv8cpSgDoY4r-bjhEnlGjEq4Q0Iy9je7IBu6kh1-AxDplhk-0UUJIg-GG-iHqJA74jdJcgyAXopwUoaavppPI-iKOnlWlQNnTyilK9PY9z7I_Z5vYaHT2P9jOVug1pLQ=w900-h700-k-no"
+      "note": "Lovund är ett levande kustsamhälle långt ute mot storhavet, känt för Helgelands största lunnefågelkoloni med cirka 200–300 000 fåglar under säsong.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk5cl3rIwiv8cpSgDoY4r-bjhEnlGjEq4Q0Iy9je7IBu6kh1-AxDplhk-0UUJIg-GG-iHqJA74jdJcgyAXopwUoaavppPI-iKOnlWlQNnTyilK9PY9z7I_Z5vYaHT2P9jOVug1pLQ=w900-h700-k-no",
+      "visitUrl": "https://visithelgeland.com/no/places/lovund/",
+      "tips": [
+        "Lunnefåglar brukar anlända runt 14 april",
+        "Häckningsperioden slutar mot slutet av augusti",
+        "Ö-stopp med stark naturkänsla"
+      ]
     },
     {
       "name": "Våg Helgeland",
@@ -257,8 +323,14 @@ window.NORGE2026 = {
       "category": "ferry",
       "rating": "4.4",
       "reviews": "9",
-      "note": "Färjenod på bilrutten.",
-      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm_K6pFZ1TIw3T3apZIz_tzmoE76PZ8q6pY9E40N0-paWc5yMlM-t9OZ5qmuuUgFv-5RMQCh9kWO8GuocViVHPL7qvLnbOSuAPNmo8WM08Eq5cwoyOnNqBRjN_CzxFMFmU5AgdZQWfFhPmJ=w900-h700-k-no"
+      "note": "Färjenod på Kystriksveien/Fv17, den nationella turistvägen längs Helgelandskusten. Själva bilrutten är en del av resans sevärdheter.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm_K6pFZ1TIw3T3apZIz_tzmoE76PZ8q6pY9E40N0-paWc5yMlM-t9OZ5qmuuUgFv-5RMQCh9kWO8GuocViVHPL7qvLnbOSuAPNmo8WM08Eq5cwoyOnNqBRjN_CzxFMFmU5AgdZQWfFhPmJ=w900-h700-k-no",
+      "visitUrl": "https://visithelgeland.com/en/coastal-route-national-tourist-route-helgeland-coast/",
+      "tips": [
+        "Planera med marginal",
+        "Bra kustvy-sträcka",
+        "Färja + bil gör dagen mer äventyrlig"
+      ]
     },
     {
       "name": "Tjøtta ferjekai",
@@ -266,8 +338,14 @@ window.NORGE2026 = {
       "category": "ferry",
       "rating": "3.0",
       "reviews": "2",
-      "note": "Färjenod — kontrollera tidtabell nära avresa.",
-      "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OhA_XhE7UpwP96yF21akLg&cb_client=search.gws-prod.gps&w=900&h=700&yaw=143.94075&pitch=0&thumbfov=100"
+      "note": "Del av Kystriksveien/Fv17-logistiken. Visit Helgeland beskriver Helgelandskusten som en av världens vackraste vägrutter, där färjorna är en del av upplevelsen.",
+      "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OhA_XhE7UpwP96yF21akLg&cb_client=search.gws-prod.gps&w=900&h=700&yaw=143.94075&pitch=0&thumbfov=100",
+      "visitUrl": "https://visithelgeland.com/en/coastal-route-national-tourist-route-helgeland-coast/",
+      "tips": [
+        "Kolla tidtabell innan avresa",
+        "Färjorna gör rutten långsammare men finare",
+        "Bra plats att planera dagsrytmen runt"
+      ]
     },
     {
       "name": "Igerøy ferry port",
@@ -302,8 +380,14 @@ window.NORGE2026 = {
       "category": "ferry",
       "rating": "4.4",
       "reviews": "14",
-      "note": "Central färjepunkt runt Nesna-nätterna.",
-      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkOH-m261tWWMgW-wkUS6yJ4-e3At2q8bL1-wUouav_OYja9y1RSdqd5TRUkxvcQ0KhmHrbTJ1i7UjDI847_0qFudIavTO4rTrFdd8LS60FAOYiUSudaXYojmaD465ByTYDeFqJf1x4Mms=w900-h700-k-no"
+      "note": "Praktisk färjepunkt runt Nesna och öarna. Kystriksveien/Fv17 är listad av Visit Helgeland som en höjdpunkt i sig, inte bara transport.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkOH-m261tWWMgW-wkUS6yJ4-e3At2q8bL1-wUouav_OYja9y1RSdqd5TRUkxvcQ0KhmHrbTJ1i7UjDI847_0qFudIavTO4rTrFdd8LS60FAOYiUSudaXYojmaD465ByTYDeFqJf1x4Mms=w900-h700-k-no",
+      "visitUrl": "https://visithelgeland.com/en/coastal-route-national-tourist-route-helgeland-coast/",
+      "tips": [
+        "Nyckelpunkt för ö-hopp",
+        "Håll koll på sista färjor",
+        "Bra bas om ni bor i Nesna"
+      ]
     },
     {
       "name": "Helgelandssykehuset Sandnessjøen",

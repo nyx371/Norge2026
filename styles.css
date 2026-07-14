@@ -120,7 +120,27 @@ code { background: var(--mist); padding: 3px 7px; border-radius: 7px; }
 .meta { display: flex; justify-content: space-between; gap: 12px; color: var(--fjord); font-weight: 800; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; }
 .type { color: var(--muted); margin: 8px 0 0; font-weight: 700; }
 .card-body p:not(.type) { color: var(--muted); line-height: 1.5; }
-.map-link { margin-top: auto; font-weight: 850; text-decoration: none; color: var(--pine); }
+.tips {
+  margin: 2px 0 18px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.35;
+}
+.tips li { position: relative; padding-left: 20px; }
+.tips li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--fjord);
+  font-weight: 900;
+}
+.card-links { margin-top: auto; display: grid; gap: 8px; }
+.map-link, .source-link { font-weight: 850; text-decoration: none; color: var(--pine); }
+.source-link { color: var(--fjord); }
 footer {
   display: flex;
   justify-content: space-between;

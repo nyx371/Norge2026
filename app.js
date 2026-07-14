@@ -9,6 +9,8 @@ function mapsSearchUrl(name) {
 function placeCard(place, index) {
   const category = byCategory[place.category] ?? { label: "Stopp" };
   const rating = place.rating ? `<span>★ ${place.rating}${place.reviews ? ` · ${place.reviews} reviews` : ""}</span>` : "";
+  const tips = place.tips?.length ? `<ul class="tips">${place.tips.map((tip) => `<li>${tip}</li>`).join("")}</ul>` : "";
+  const visitLink = place.visitUrl ? `<a class="source-link" href="${place.visitUrl}" target="_blank" rel="noreferrer">Läs mer på Visit Helgeland →</a>` : "";
   return `
     <article class="card ${index < 6 ? "featured" : ""}" data-category="${place.category}">
       <a class="photo" href="${mapsSearchUrl(place.name)}" target="_blank" rel="noreferrer" aria-label="Öppna ${place.name} i Google Maps">
@@ -19,7 +21,11 @@ function placeCard(place, index) {
         <h3>${place.name}</h3>
         <p class="type">${place.type ?? "Resmål"}</p>
         <p>${place.note}</p>
-        <a class="map-link" href="${mapsSearchUrl(place.name)}" target="_blank" rel="noreferrer">Öppna i Maps →</a>
+        ${tips}
+        <div class="card-links">
+          ${visitLink}
+          <a class="map-link" href="${mapsSearchUrl(place.name)}" target="_blank" rel="noreferrer">Öppna i Maps →</a>
+        </div>
       </div>
     </article>`;
 }
